@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos - Festa Mágica</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fffafc;
+    }
+
+    header {
+      background-color: #ff4081;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #ffe3ed;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ff4081;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #ff4081;
+      margin-bottom: 30px;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .product {
+      background-color: #fff;
+      border: 2px solid #ff4081;
+      border-radius: 10px;
+      width: 220px;
+      padding: 15px;
+      transition: transform 0.3s;
+    }
+
+    .product:hover {
+      transform: scale(1.05);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product h3 {
+      color: #333;
+      font-size: 1.1rem;
+      margin: 10px 0 5px;
+    }
+
+    .product p {
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    .product span {
+      color: #ff4081;
+      font-weight: bold;
+      display: block;
+      margin-top: 8px;
+    }
+
+    footer {
+      background-color: #ff4081;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Festa Mágica</h1>
+    <p>Confira nossos produtos para todas as ocasiões!</p>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="produtos.html">Produtos</a>
+    <a href="#">Contato</a>
+    <a href="#">Sobre Nós</a>
+  </nav>
+
+  <div class="section">
+    <h2>Produtos em Destaque</h2>
+    <div class="products">
+      <!-- Produto 1 -->
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1598387992660-7ffac7e5dbd6" alt="Kit Festa Infantil">
+        <h3>Kit Festa Infantil</h3>
+        <p>Pratos, copos, balões
